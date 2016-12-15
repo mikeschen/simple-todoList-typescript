@@ -1,3 +1,7 @@
-body {
+.title {
   color: red;
+}
+
+#results {
+  color: blue;
 }
