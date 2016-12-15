@@ -7,9 +7,15 @@ class Todo {
 }
 
 function addTodo() {
-  console.log("function activated");
   let input = <HTMLInputElement>document.getElementById("userInput");
-  console.log("This is the user input: ", input);
   let storedInput = input.value;
-  console.log("This is input.value: ", storedInput);
+  let todo1 = new Todo(storedInput);
+  document.getElementById("results").innerHTML += "<li>" + todo1.task + "</li>";
+  clearForm();
+}
+
+function clearForm() {
+  if(document.getElementById) {
+    document.form.reset();
+  }
 }
