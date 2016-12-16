@@ -1,7 +1,6 @@
 {
   "name": "todo",
   "version": "1.0.0",
-  "description": "",
   "main": "todo.js",
   "dependencies": {
     "@types/es6-promise": "0.0.32"
@@ -19,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/mikeschen/todoList/issues"
   },
-  "homepage": "https://github.com/mikeschen/todoList#readme"
+  "homepage": "https://github.com/mikeschen/todoList#readme",
+  "description": ""
 }
